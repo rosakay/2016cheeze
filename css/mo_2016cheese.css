@@ -1,0 +1,405 @@
+
+@media screen and (max-width: 481px) {
+.bg{
+  outline: 1px solid red;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.bg1,.bg2{
+  width: 100%;
+  height: 120%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg1{
+  animation: wave1 10s  ease-in-out infinite alternate;
+  background: url("../images/topbg01.png")center top no-repeat;
+  z-index: -1;
+}
+.bg2{
+  animation: wave2 12s  ease-in-out infinite alternate;
+  background: url("../images/topbg02.png")center top no-repeat;
+  z-index: -2;
+}
+#menu{
+  display: none;
+}
+#content{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.infowin{
+  background: url("../images/mbinfowin.png")center center no-repeat;
+  max-height: 610px;
+}
+.keepdown{
+  left: 0;
+  right: 0;
+  bottom: 5%;
+}
+.answer{
+  color: #ff9600;
+}
+/*---------top-----------*/
+
+.toplogo{
+  width: 20vh;
+  height: 40px;
+  left: 3vh;
+  top: 15px;
+}
+.topobj1{
+  top: 20vh;
+}
+.topobj1:before{
+  right: 0;
+  left: 0;
+  top: 148px;
+}
+.topobj2{
+  width: 70%;
+  height: 50%;
+  right: -10%;
+  top: 55%;
+}
+.topobj3{
+  width: 60%;
+  height: 50%;
+  top: -8%;
+  left: -2%;
+}
+.topobj4{
+  width: 60%;
+  height: 50%;
+  top: -6%;
+  right: -5%;
+}
+.topobj5{
+  width: 60%;
+  height: 50%;
+  top: 55%;
+  left: -5%;
+}
+.topbg1,.topbg2{
+  display: none
+}
+
+
+
+/*---------source-----------*/
+.swbg{
+  display: none
+}
+.swinfo{
+  margin: 20% auto;
+  width: 95%;
+}
+.swtittle{
+  width: 85%;
+}
+.swtittle2{
+  -webkit-background-size: contain;
+  background-size: contain;
+  width: 85%;
+  height: 57px;
+}
+.swtittle3{
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.swword{
+  width: 300px;
+  font-size: 2.4vh;
+}
+.sourcekd{
+  left: 0;
+  right: 0;
+  bottom: 10%;
+}
+.sourceobj1{
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+.sourceobj2{
+  width: 90%;
+  margin: 20% auto;
+  font-size: 2.4vh;
+}
+.sourceobj2 p{
+  width: 100%;
+}
+.sourcebg1,.sourcebg2{
+  display: none;
+}
+/*---------product-----------*/
+.pdcontent{
+  width: 100%;
+}
+.pdcontent:before{
+  bottom: 0;
+}
+.pdslider{
+  width: 90%;
+}
+.pd1{
+  background: url("../images/productwin01_mo.png")center center no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.pd2{
+  background: url("../images/productwin02_mo.png")center center no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.pd3{
+  background: url("../images/productwin03_mo.png")center center no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.pd4{
+  background: url("../images/productwin04_mo.png")center center no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.productobj1{
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+.productobj2{
+  width: 80%;
+  margin: 20% auto;
+  font-size: 2.4vh;
+}
+.productobj2 p{
+  width: 100%;
+}
+.productbtn .wordbtn{
+  background: url("../images/btnproduct.png")center center no-repeat;
+}
+.productbg1,.productbg2{
+  display: none;
+}
+
+/*---------report-----------*/
+.reportwin{
+  background: url("../images/mbinfowin.png")center center no-repeat;
+}
+.news{
+  width: 80%;
+}
+.reportkd{
+  top: 90%;
+  left: 0;
+  right: 0;
+  bottom: 3%;
+}
+.reportobj1{
+  width: 100%;
+  height: 50px;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.reportobj2{
+  width: 80%;
+  margin: 20% auto;
+  font-size: 2.4vh;
+}
+.reportobj2 p{
+  width: 100%;
+}
+.reportbtn .wordbtn{
+  background: url("../images/btnreport.png")center center no-repeat;
+}
+
+.reportbg1,.reportbg2{
+  display: none;
+}
+
+/*---------creative-----------*/
+.creativeobj1{
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.creativeobj2{
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+.c_video{
+  width: 100%;
+  height: 180px;
+  border: 0px dashed #ffa60d;
+  background-color: rgba(0,0,0,0);
+}
+.creativeobj2 iframe.youtube-player{
+  width: 96%;
+  height: auto;
+}
+
+.videotext {
+  width: 86%;
+  text-align: center;
+  font-size: 2.4vh;
+  padding: 7%;
+  margin: 0 auto;
+  margin-top: 20px;
+  line-height: 4.4vh;
+}
+
+
+.creativebg1,.creativebg2{
+  display: none;
+}
+/*---------quest-----------*/
+.questobj1{
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 40px;
+  margin-top: 0px;
+}
+.questobj2{
+  background: url('none');
+  -webkit-background-size: contain;
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  z-index: 20;
+}
+.qword{
+  width: 90%;
+  font-size: 2.4vh;
+  margin: 0 auto;
+}
+.qa{
+  width: 83%;
+  line-height: 4.5vh;
+  padding: 2vh;
+  font-size: 2.4vh;
+  border: 2px dashed #ffa60d;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.qa input{
+  margin-left: 25px;
+}
+.qa label{
+  font-size: 2.4vh;
+}
+.btnquest{
+  width: 200px;
+  position: absolute;
+  right: 5px;
+  bottom: -40px;
+}
+.btnquest span{
+  left: 80px;
+}
+.questobj3{
+  width: 90%;
+  height: auto;
+  margin: 2vh auto;
+  font-size: .9vh;
+}
+.questobj3:before{
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+}
+/*------------ LightBox -----------------*/
+
+.lb-content{
+    width: 100%;
+}
+.lb-content img{
+    width: 90%;
+    max-width: 375px;
+    height: auto;
+    object-fit: contain;
+}
+
+/*------footer-------*/
+footer{
+  font-size: 1vh;
+  height: 40px;
+  line-height: 40px;
+  display: none;
+}
+
+/*---------animation-----------*/
+
+.winputout{
+  animation: winputout .5s ease forwards;
+}
+.winputin{
+  animation: winputin .5s ease forwards;
+}
+@keyframes winputout{
+  0%{
+  width: 0;
+  height: 0;
+  }
+  100%{
+  width: 100%;
+  height: 100%;
+  }
+}
+@keyframes winputin{
+  0%{
+  width: 100%;
+  height: 100%;
+  }
+  100%{
+  width: 0;
+  height: 0;
+  }
+}
+
+.pdcontentputout{
+  animation: pdcontentputout .5s ease forwards;
+}
+.rpwinputout{
+  animation: rpwinputout .5s ease forwards;
+}
+.rpwinputin{
+  animation: rpwinputin .5s ease forwards;
+}
+@keyframes rpwinputout{
+  0%{
+  width: 0;
+  height: 0;
+  }
+  100%{
+  width: 100%;
+  height: 100%;
+  }
+}
+@keyframes rpwinputin{
+  0%{
+  width: 100%;
+  height: 100%;
+  }
+  100%{
+  width: 0;
+  height: 0;
+  }
+}
+}
+
